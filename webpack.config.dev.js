@@ -4,8 +4,10 @@ var path = require("path");
 module.exports = {
     entry: path.join(__dirname, './src/js/entry.js'),
     output: {
-        path: path.join(__dirname,'./dist/js'),
-        filename: "bundle.js"
+        path: path.join(__dirname,'./dist/'),
+        filename: "iui.js",
+        //target: "hb",
+        //libraryTarget: "amd",
     },
     watch: true,
     devtool: "source-map",
