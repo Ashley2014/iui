@@ -3,17 +3,14 @@
 
 //console.log(url)
 
-var hb={};
-
-
-import interval from "./hb.interval";
 
 
 
-hb.interval=interval;
+import iui from "./iui.js";
 
 
-window.hb=hb;
+
+window.iui=iui;
 
 
 //console.log(hb);

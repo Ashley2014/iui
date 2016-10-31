@@ -1,9 +1,10 @@
 var webpack = require("webpack");
 var autoprefixer = require('autoprefixer');
+var path = require("path");
 module.exports = {
-    entry: __dirname+"/iui.js",
+    entry: path.join(__dirname, './src/js/entry.js'),
     output: {
-        path: __dirname,
+        path: path.join(__dirname,'./dist/js'),
         filename: "bundle.js"
     },
     watch: true,

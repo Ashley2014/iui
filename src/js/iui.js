@@ -23,7 +23,7 @@
             };
 
             if(typeof options=="string"){
-                defaults = extend(defaults,{
+                defaults = $.extend(defaults,{
                     content:options
                 });
             }else{
